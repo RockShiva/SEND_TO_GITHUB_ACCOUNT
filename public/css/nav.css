@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+nav div{
+    margin: 5px;
+}
+
+nav div a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+nav div a:hover{
+    color: white;
+    background-color: blue;
+}

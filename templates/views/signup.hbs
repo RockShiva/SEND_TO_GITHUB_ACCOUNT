@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+    <title>signin</title>
+</head>
+
+<body>
+    {{>nav}}
+    <h1>signin</h1>
+    <form action="/signup" method="post">
+        <label for="name"><input type="text" name="name"></label>
+        <label for="id"><input type="text" name="id"></label>
+        <label for="password"><input type="password" name="password"></label>
+        <label for="confirmpassword"><input type="password" name="confirmpassword"></label>
+        <input type="submit" value="Signup">
+    </form>
+</body>
+
+</html>
